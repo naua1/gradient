@@ -1,0 +1,43 @@
+* {
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    width:100vw;
+    height: 100vh;
+}
+
+button{
+    height: 100px;
+    width:100px;
+    border: 0;
+    margin:100px ;
+    
+    /*esse é o codigo do gradiente, eu a cor do background e coloquei um padding para a borda aparecer*/
+    background: linear-gradient(149deg, rgba(246,188,39,0.9864320728291317) 14%, rgba(237,231,17,1) 54%, rgba(190,137,0,1) 100%);  
+}
+
+div{
+    display: flex;
+    margin: auto;
+    height: 282px;
+    width: 200px;
+    /*esse é o codigo do gradiente, eu a cor do background e coloquei um padding para a borda aparecer*/
+     /*para diminuir a bordar é só diminuir o padding*/
+    background: linear-gradient(149deg, rgba(246,188,39,0.9864320728291317) 14%, rgba(237,231,17,1) 54%, rgba(190,137,0,1) 100%); 
+    border-radius: 20%;
+    padding: 8px;
+}
+
+img{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 20%;
+}
